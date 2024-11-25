@@ -1,0 +1,381 @@
+
+  .pharmacy-header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 30px 16px;
+    border: 1px solid #000;
+  }
+
+  @media (max-width: 991px) {
+    .pharmacy-header {
+      padding-right: 20px;
+    }
+  }
+
+  .header-content {
+    align-self: flex-end;
+    display: flex;
+    width: 928px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 991px) {
+    .header-content {
+      margin-right: 6px;
+    }
+  }
+
+  .user-actions {
+    align-self: flex-end;
+    display: flex;
+    width: 290px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 58px;
+  }
+
+  .login-button {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #ff4400;
+    min-height: 47px;
+    color: #fff;
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 14px 12px;
+    font: 700 14px/1.4 Arial, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .login-button {
+      white-space: normal;
+    }
+  }
+
+  .search-container {
+    align-self: center;
+    display: flex;
+    margin-top: 54px;
+    width: 320px;
+    max-width: 100%;
+    gap: 19px;
+    font: 400 16px/1 Arial, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .search-container {
+      margin-top: 40px;
+    }
+  }
+
+  .search-input {
+    border-radius: 9999px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    color: #000;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    border: 1px solid #171717;
+  }
+
+  .search-placeholder {
+    align-self: stretch;
+    flex: 1;
+    margin: auto 0;
+  }
+
+  .search-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+  .search-button {
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #ff4400;
+    color: #fff;
+    white-space: nowrap;
+    padding: 12px;
+  }
+
+  @media (max-width: 991px) {
+    .search-button {
+      white-space: normal;
+    }
+  }
+
+  .main-navigation {
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 52px;
+    min-height: 105px;
+    align-items: center;
+    gap: 24px;
+    overflow: hidden;
+    color: #000;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 17px 32px;
+    font: 400 16px/1 Arial, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .main-navigation {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+
+  .nav-list {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 8px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .nav-list {
+      max-width: 100%;
+    }
+  }
+
+  .nav-item {
+    align-self: stretch;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .nav-item-active {
+    background-color: #f5f5f5;
+    color: #0000ff;
+  }
+
+  .hero-section {
+    display: flex;
+    height: 479px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 210px 0 66px 10px;
+  }
+
+  @media (max-width: 991px) {
+    .hero-section {
+      max-width: 100%;
+      padding-top: 100px;
+    }
+  }
+
+  .hero-icon-1,
+  .hero-icon-2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 48px;
+  }
+
+  .hero-icon-2 {
+    align-self: flex-end;
+    margin-top: 48px;
+  }
+
+  @media (max-width: 991px) {
+    .hero-icon-2 {
+      margin-top: 40px;
+    }
+  }
+
+  .menu {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.1), 0 4px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    margin-top: 48px;
+    min-height: 711px;
+    width: 448px;
+    max-width: 100%;
+    padding: 8px 8px 265px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 991px) {
+    .menu {
+      padding-bottom: 100px;
+      margin-top: 40px;
+    }
+  }
+
+  .menu-header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    line-height: 1.4;
+    justify-content: flex-start;
+    padding: 8px 16px 4px;
+  }
+
+  @media (max-width: 991px) {
+    .menu-header {
+      max-width: 100%;
+      white-space: normal;
+    }
+  }
+
+  .menu-subheading {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .menu-heading {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .menu-separator {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 16px;
+  }
+
+  @media (max-width: 991px) {
+    .menu-separator {
+      max-width: 100%;
+    }
+  }
+
+  .separator-line {
+    background-color: #d9d9d9;
+    display: flex;
+    min-height: 1px;
+    width: 100%;
+  }
+
+  .menu-section {
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    justify-content: flex-start;
+  }
+
+  @media (max-width: 991px) {
+    .menu-section {
+      max-width: 100%;
+    }
+  }
+
+  .menu-item {
+    border-radius: 8px;
+    display: flex;
+    width: 285px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 12px;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: 12px 16px;
+  }
+
+  .menu-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+  }
+
+  .menu-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .menu-item-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+    justify-content: space-between;
+  }
+
+  .menu-item-label {
+    line-height: 1.4;
+    align-self: stretch;
+    flex: 1;
+    margin: auto 0;
+  }
+
+  .menu-shortcut {
+    align-self: stretch;
+    border-radius: 8px;
+    white-space: nowrap;
+    line-height: 1.4;
+    margin: auto 0;
+    padding: 4px 8px;
+  }
+
+  .menu-shortcut-danger {
+    background-color: #ff4400;
+    color: #fff;
+  }
+
+  .menu-shortcut-success {
+    background-color: #e4ffe4;
+    color: #2c6d3e;
+  }
+
+  .menu-item-description {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .menu-active {
+    background-color: #f5f5f5;
+  }
