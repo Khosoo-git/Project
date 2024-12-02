@@ -32,7 +32,7 @@
                                     <li><a href="#">My orders</a></li>
                                     <li><a href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Log out</a><form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
     @csrf
-</form></li>
+</form></li>    
                                 </ul>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
+                            <li><a href="{{ route('web.shop') }}">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.html">Shop Details</a></li>
