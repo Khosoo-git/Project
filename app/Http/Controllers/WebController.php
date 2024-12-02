@@ -10,30 +10,9 @@ class WebController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-{
-    $menuItems = [
-        [
-            'icon' => 'images/icon1.png',
-            'label' => 'Menu Label',
-            'shortcut' => '⇧A',
-            'description' => 'Menu description.'
-        ],
-        // Add more menu items as needed
-    ];
-
-    $otherMenuItems = [
-        [
-            'icon' => 'images/icon2.png',
-            'label' => 'Another Menu Label',
-            'shortcut' => '⇧B',
-            'description' => 'Another description.'
-        ],
-        // Add more items
-    ];
-
-    return view('welcome', compact('menuItems', 'otherMenuItems'));
-}
-
+    {
+        return view('auth.login');
+    }
 
     /**
      * Show the form for creating a new resource.
