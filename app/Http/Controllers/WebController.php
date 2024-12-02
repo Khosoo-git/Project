@@ -11,7 +11,7 @@ class WebController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('web.welcome');
     }
 
     /**
@@ -19,7 +19,7 @@ class WebController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -27,7 +27,7 @@ class WebController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('web.shop');
     }
 
     /**
