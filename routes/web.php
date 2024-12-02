@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
 
-Route::get("/", [WebController::class,"index"])->name("home");
+Route::get("/", [WebController::class,"index"])->name("welcome");
 Route::get("/shop", [WebController::class,"store"])->name("shop");
 Auth::routes();
 
