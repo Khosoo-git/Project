@@ -17,6 +17,19 @@ class WebController extends Controller
     /**
      * Show the form for creating a new resource.
      */
+
+     public function blog(){
+        return view('web.blog');
+     }
+     public function contact(){
+        return view('web.contact');
+     }
+     public function delivery(){
+        return view('web.delivery');
+     }
+     public function card(){
+        return view('web.store');
+     }
     public function create()
     {
         

@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get("/", [WebController::class,"index"])->name("welcome");
 Route::get("/shop", [WebController::class,"store"])->name("shop");
+Route::get("/blog", [WebController::class,"blog"])->name("blog");
+Route::get("/delivery", [WebController::class,"delivery"])->name("delivery");
+Route::get("/contact", [WebController::class,"contact"])->name("contact");
+Route::get("/store", [WebController::class,"card"])->name("store");
 Auth::routes();
 
 // Authentication Routes
